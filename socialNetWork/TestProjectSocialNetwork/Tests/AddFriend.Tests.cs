@@ -19,9 +19,7 @@ namespace Tests.UnitTests
         [TestCase(1)]
         public void AddFriendMustBeNotNull(int userId)
         {
-
             Assert.That(friendRepository.FindFriendByUserId(userId) != null);
-
         }
 
         [TestCase(1)]
@@ -33,7 +31,5 @@ namespace Tests.UnitTests
 
             Assert.That(listFriends.Count() > 0);
         }
-
-
     }
 }
