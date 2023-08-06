@@ -27,7 +27,6 @@ namespace SocialNetWork.PLL.Views
             friendData.Email = Console.ReadLine();
             friendData.SenderId = user.Id;
             
-
             try
             {
                 friendsService.AddFriend(friendData);
@@ -41,9 +40,5 @@ namespace SocialNetWork.PLL.Views
             }
         
         }
-
-
-
-
     }
 }
