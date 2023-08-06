@@ -40,8 +40,6 @@ namespace SocialNetWork
             userIncomingMessageView = new UserIncomingMessageView();
             userOutcomingMessageView = new UserOutcomingMessageView();
 
-
-
             while (true)
             {
                 mainView.Show();
